@@ -7,7 +7,7 @@ const {
   DB_NAME,
   DB_PORT,
   DB_DIALECT,
-} = process.env; 
+} = process.env;
 
 module.exports = {
   "development": {
@@ -34,4 +34,4 @@ module.exports = {
     "dialect": DB_DIALECT,
     "port" : DB_PORT,
   }
-}
+};
