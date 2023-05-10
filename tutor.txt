@@ -39,3 +39,4 @@ npx sequelize
 #membuat file model, migration, seeders
 npx sequelize init 
 
+--- new ---
