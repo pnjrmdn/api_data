@@ -14,10 +14,10 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false,
            },
-        //    password:{
-        //     type: DataTypes.STRING,
-        //     allowNull: false,
-        //    },
+           password:{
+            type: DataTypes.STRING,
+            allowNull: false,
+           },
         //    createdAt: {
         //     type: DataTypes.DATE,
         //     allowNull: false,
@@ -35,4 +35,4 @@ module.exports = (sequelize, DataTypes) => {
     }
     ); 
     return User;
-}
+};

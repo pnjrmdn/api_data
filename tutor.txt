@@ -39,4 +39,8 @@ npx sequelize
 #membuat file model, migration, seeders
 npx sequelize init 
 
+--- bcrypt ---
+#untuk enskripsi password
+npm i bcrypt
+
 --- new ---

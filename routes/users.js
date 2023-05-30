@@ -1,9 +1,9 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const { User } = require('../models');
+const router = express.Router();
 
-const {User} = require("../models");
 const usersHandler = require('./handlers/users');
-const userIdHandler = require("./handlers/users/id");
+const userIdHandler = require('./handlers/users/id');
 
 router
 .route("/")
